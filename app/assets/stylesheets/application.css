@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.letters {
+  display: inline-flex;
+}
+
+.letter {
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  margin: 10px;
+  background: #3498DB;
+  border-radius: 1px;
+  border: solid #2C86C1 1px;
+  text-align: center;
+  box-shadow: 1px 1px 2px lightgray;
+  color: white;
+}
